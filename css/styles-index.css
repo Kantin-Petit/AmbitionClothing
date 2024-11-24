@@ -1,0 +1,105 @@
+*{
+	font-family: arial, sans-serif;
+}
+html
+{
+	height: 100%
+}
+
+body
+{
+	background: no-repeat url("../img/Img1.jpeg");
+	background-size: 100%;
+	min-height: 100%
+	margin: 0;
+	padding: 0;
+
+}
+
+nav
+{
+	width: 300px;
+}
+
+nav li
+{
+	list-style-type: none; 
+}
+
+nav a
+{
+	color: white;
+	text-decoration: none;
+	font-family: arial;
+}
+
+nav ul li img 
+{
+	width: 80px
+}
+
+nav ul li a
+{
+	font-size:20px;
+}
+
+div#content
+{
+	font-size:13px;
+}
+div#content div
+{
+	width : 30%;
+	vertical-align: top;
+	display:inline-block;
+}
+
+div#content div a
+{
+	color: white;
+}
+
+.copyright
+{
+	color: white;
+	font-size: 16px;
+}
+
+body footer
+{
+	position: absolute;
+	bottom:0;
+	left: 0;
+	right: 0;
+	background: black;
+	height:3%;
+	text-align: center;
+}
+
+footer a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 10px;
+	margin-right:75px;
+	margin-left: 75px;
+}
+nav ul li ul
+{
+	display: none;
+}
+
+nav ul li:hover ul
+{
+	display: block;
+}
+
+nav li:hover ulk li
+{
+	float:none;
+}
+
+.mentionlegals p h1
+{
+	text-align: center;
+}
